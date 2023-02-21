@@ -463,6 +463,13 @@ html{
      color: #10cab7;
      text-decoration: none;
  }
+ @media (Min-width: 100px) {
+    .info .link{
+        font-size :15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
  .contact .info .social {
      display: flex;
